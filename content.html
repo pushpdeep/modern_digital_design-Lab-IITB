@@ -1,0 +1,226 @@
+<!-- This file needs to be edited by the lab developer to suit
+their lab rquirements. -->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Test Labs</title>
+</head>
+
+<body>
+    <div id="lab">
+        <!-- The Lab Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab, 
+  usually displayed on the top of the page-->
+
+        <header id="lab-header">
+            <div class="logo" id="lab-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="images/logo.jpg"></div>
+
+            <div class="heading" id="lab-header-heading">
+                <!-- Write the name of your lab and link it to the home page
+    of your lab. -->
+                <a href="index.html">Modern Digital Design</a>
+            </div><!-- Add any additional element or link you want to add to 
+    the lab header, For example : Help (Enclosing them with 
+    suitable div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="lab-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <header id="lab-article-header">
+                <!-- You can add a welcome message or title of the 
+      experiment enclosed in h1 tag here -->
+
+                <div class="heading" id="lab-article-heading">
+                    Welcome to Modern Digital Design Lab
+                </div><!-- Add any additional element if required with proper 
+      enclosing-->
+            </header><!-- Navigation menu is useful to organize the view of 
+    multiple sections inside the article-->
+
+            <nav class="default" id="lab-article-navigation">
+                <!-- The menu will be dynamically generated to contain the 
+      headings of your sections or instead write the menu items 
+      of your choice individually enclosed in <li> tag as shown 
+      below-->
+            </nav><!-- All the sections of your lab or experiment can be 
+    enclosed together with a div element as shown below-->
+
+            <div id="lab-article-sections">
+                <!-- First section of the article-->
+
+                <section id="lab-article-section-1">
+                    <div class="icon" id="lab-article-section-1-icon">
+                    <!-- Enclose the icon image for the section. -->
+                    <img src="images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id="lab-article-section-1-heading">
+                        Introduction
+                    </div><!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+
+                    <div class="content" id="lab-article-section-1-content">
+                        <p> Introduction
+
+Laboratories play an important role in engineering education. The laboratory work provides an opportunity to witness classroom-learned theoretical concepts at work; operate instruments used in the experimental set-up; measure different quantities and thereafter analyze the experimental data; and work collaboratively. However, physical distances and the lack of resources make us unable to perform experiments, especially when they involve sophisticated instruments. Also, trained teachers are always a scarce resource. Rapid development and ever increasing use of Information and Communication Technology (ICT) has revolutionized the education system by eliminating limitations in terms of physical distance, time and access, by providing equal opportunity to everyone, irrespective of place and time.</p>
+
+As a part of e-Prayog, the following electronics lab courses have been developed:
+<ul>
+    <li>Electronic Devices and Circuits </li>
+    <li> Network Analysis </li>
+     <li>Linear Integrated Circuits </li>
+     <li>Signals and Systems </li>
+     <li>Digital Signal Processing using DSK6713,DSK5510 and a low cost board using TMS320vc33 </li>
+     <li>Modern Digital Design using CPLD and FPGA  </li>
+     <li>Microcontrollers  </li>
+     <li>Image Processing  </li>
+</ul>
+
+<p> These are purely simulation based labs. Users are not required to book the slots.
+$ These are low-cost kit-based labs.</p>
+                    </div>
+                </section>
+             
+
+           
+
+                <section id="lab-article-section-3">
+                    <div class="icon" id="lab-article-section-3-icon">
+                    <!-- Enclose the icon image for the section. -->
+                    <img src="images/simulation.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+
+                    <div class="heading" id="lab-article-section-3-heading">
+                        List of experiments
+                    </div><!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+
+                    <div class="content" id="lab-article-section-3-content">
+                    
+
+
+<hr>
+<ol>
+<li> <a href ="adder/index.html">To Design, implement and Simulate the Full adder using two half adder.
+<li><a href ="decoder/index.html">To Design, implement and Simulate the 3 : 8 Decoder.
+<li><a href ="multiplexer/index.html">To Design, implement and Simulate the 16 : 1 Multiplexer using 4 : 1
+	Multiplexer.
+<li> <a href ="binary2bcd/index.html">To Design, implement and Simulate the Binary to BCD code Converter by
+	Showing BCD No. on 7segment Display.
+<li><a href ="lookaheadcarryadder/index.html">To Design, implement and Simulate the Look ahead carry.
+<li><a href ="flipflop/index.html">To Design, implement and Simulate the Flip-Flop.
+<li><a href ="ringcounter/index.html">To Design, implement and Simulate the Ring Counter.
+<li> <a href ="Comparator/index.html">To Design, implement and Simulate the 4 bit comparator.
+<li> <a href ="sequence_detector/index.html">To Design, implement and Simulate the Finite State Machine by Moore
+method. </a>
+</ol>
+
+ <!-- <ul id="list-of-experiments">
+                            <li>
+                                <!--Link and name of the experiment 1 -->
+                                 <!-- <a href="exp1/index.html">Time Response of RC </a></li> 
+<li>-->
+                                <!--Link and name of the experiment 1 -->
+                                <!--  <a href="exp2/index.html">RLC</a>
+                            </li><li> -->
+                                <!--Link and name of the experiment 1 -->
+                              <!--  <a href="exp3/index.html">Network Theory</a>
+                            </li><li>-->
+                                <!--Link and name of the experiment 1 -->
+                              <!--  <a href="exp4/index.html">Diode I/V</a>
+                            </li><li>-->
+                                <!--Link and name of the experiment 1 -->
+                              <!--  <a href="exp5/index.html">Clipping Clamping </a>
+                            </li><li>-->
+                                <!--Link and name of the experiment 1 -->
+                               <!-- <a href="exp6/index.html">Rectifiers with/without filled</a>
+                            </li><li>-->
+                                <!--Link and name of the experiment 1 -->
+                                <!-- <a href="exp7/index.html"> BJT I/V </a>-->
+                            <!--</li><li>-->
+                                <!--Link and name of the experiment 1 -->
+                               <!-- <a href="exp8/index.html">BJT biasing</a>
+                           <!-- </li>
+<li>-->
+                                <!--Link and name of the experiment 1 -->
+                                <!-- <a href="exp9/index.html">CE Amp Freqresponse</a>
+                            </li>
+<li>-->
+                                <!--Link and name of the experiment 1 -->
+                                <!-- <a href="exp10/index.html">I/V Characterisation of Soler Cell</a>
+                            </li>
+<li>-->
+                                <!--Link and name of the experiment 1 -->
+                                <!-- <a href="exp11/index.html">MOSFET</a>
+                            </li>
+<li>-->
+                                <!--Link and name of the experiment 1 -->
+                                 <!-- <a href="exp12/index.html">Opam basic </a>
+                            </li>
+<li>-->
+                                <!--Link and name of the experiment 1 -->
+                               <!-- <a href="exp13/index.html">Active Filter</a>
+                            </li>
+<li>-->
+                                <!--Link and name of the experiment 1 -->
+                                <!--<a href="exp14/index.html">Astable + Schmitt</a>
+                            </li>
+<li>-->
+                                <!--Link and name of the experiment 1 -->
+                               <!--  <a href="exp15/index.html">Wien Bridge OSE</a>
+                            </li>
+<li>-->
+                                <!--Link and name of the experiment 1 -->
+                              <!--  <a href="exp16/index.html">Waveform Generator</a>
+                            </li>
+<li>-->
+                                <!--Link and name of the experiment 1 -->
+                             <!--   <a href="exp17/index.html">Precision HW/FW</a>
+                            </li>
+<li>-->
+                                <!--Link and name of the experiment 1 -->
+                               <!-- <a href="exp18/index.html">Cussent Mirror</a>
+                            </li>
+<li>-->
+                                <!--Link and name of the experiment 1 -->
+                                <!-- <a href="exp19/index.html">Mono stable / astable 555</a>
+                            </li>
+                        </ul>-->
+                    </div>
+                </section>
+            </div><!-- An article can have a sidebar that contain related 
+      links and additional material (it is optional at this 
+      moment)-->
+
+            <aside class="default" id="lab-article-sidebar">
+                <!-- put the content that you want to appear in the 
+        sidebar-->
+            </aside><!-- Article footer can display related content and 
+      additional links -->
+
+         </article><!-- Links to other labs, about us page can be kept the lab -->
+  
+
+        <footer  class="footer">
+        <!-- Put the content here -->
+        <div style="margin-left:40%; margin-right:40% ">
+        <a href="license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+        </div>
+      </footer> 
+    </div>
+</body>
+</html>
